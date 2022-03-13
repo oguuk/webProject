@@ -1,0 +1,43 @@
+#chartWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#inputWrapper {
+  text-align: center;
+}
+
+.keyword {
+  border-style: groove;
+}
+.keyword {
+  border-radius: 5px;
+  width: 40%;
+  height: 1%;
+}
+
+.kospi {
+  width: 22vmax;
+  height: 20vmax;
+  border-style: ridge;
+}
+
+.kosdaq {
+  width: 22vmax;
+  height: 20vmax;
+  border-style: ridge;
+}
+
+.nasdaq {
+  width: 22vmax;
+  height: 20vmax;
+  border-style: ridge;
+}
+
+.bitcoin {
+  width: 22vmax;
+  height: 20vmax;
+  border-style: ridge;
+}

@@ -1,0 +1,29 @@
+.siteLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.siteimg {
+  width: 4%;
+  height: 4%;
+}
+
+.siteName {
+  font-size: 4vmax;
+}
+
+.btn_menu {
+  float: left;
+  width: 5vmin;
+  height: 5vmin;
+  border: 0;
+  outline: 0;
+  background-color: white;
+}
+
+.btnImg {
+  float: left;
+  width: 4vmin;
+  height: 4vmin;
+}
