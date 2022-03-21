@@ -2,68 +2,96 @@
 <html lang="en">
 
 <head>
-    <title>oguuk</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billboard 테스트</title>
-    <link rel="stylesheet" href="./datalab.min.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./main.css" type="text/css">
-    <link rel="stylesheet" href="./footer.css" type="text/css">
-    <script src="./billboard.pkgd.js"></script>
+  <title>oguuk</title>
+  <script type="module" src="./header.js"></script>
+  <script type="module" src="./wrap.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./datalab.min.css" />
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="./wrap.css" type="text/css" />
+  <link rel="stylesheet" href="./footer.css" type="text/css" />
+  <script src="./billboard.pkgd.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
-    <div class="container">
-        <header id="header">
-            <h1 class="siteLogo">
-                <span class="siteName">oguuk</span>
-                <img class="siteimg" src="./Assets/logo.png">
-            </h1>
-            <button type="button" class="btn_menu">
-                <span class="icon-Menu">
-                    <before></before>
-                </span>
-                <span class="icon-Close"></span>
-                <img src="./Assets/hamburger.png" class="btnImg" alt="menu">
-            </button>
-        </header>
+  <header id="header">
+    <h1 class="siteLogo">
+      <span class="siteName font-style">oguuk</span>
+    </h1>
+    <div id="nvbar-menu">
+      <div class="nvbar-item">
+        <a href="" class="nvbar-item font-style">
+          <span>Home</span>
+        </a>
+      </div>
+      <div class="nvbar-item">
+        <a href="" class="nvbar-item font-style">
+          <span>Programming</span>
+        </a>
+      </div>
+      <div class="nvbar-item">
+        <a href="" class="nvbar-item font-style">
+          <span>Stock</span>
+        </a>
+      </div>
+      <div class="nvbar-item">
+        <a href="" class="nvbar-item font-style">
+          <span>Contact</span>
+        </a>
+      </div>
     </div>
-    <div class="main">
+    <hr />
+  </header>
+  <div id="wrap">
+    <div class="container mobile-container"></div>
+    <div class="container desktop-container">
+      <div id="chart-section">
         <div id="chartWrapper">
-
-            <div class="kospi">
-               
-            </div>
-            <div class="kosdaq">
-            </div>
-            <div class="nasdaq">
-
-            </div>
-            <div class="bitcoin">
-
-            </div>
-
-        </div>
-        <div id="inputWrapper">
-            <form class='search'>
-                <input class="keyword" type="text" name='search' size=25 maxlength=255 value="" autocomplete="off"
-                    spellcheck="false" placeholder="검색">
-                <select class='selectSearch' name='whichSearch'>
-                    <option id="google" vlaue="google">Google</option>
-                    <option id="naver" value="naver">Naver</option>
-                </select>
-            </form>
-        </div>
-        <div id="stockWrapper">
-            <div class="rank">
-
-            </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/slider-01.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/slider-02.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/slider-03.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/slider-04.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/slider-05.jpg" alt=""></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div class="footer">footer</div>
+    <hr />
+    <div id="main_section1">
+      <h2 class="main-section">Programming</h2>
+    </div>
+    <hr />
+    <div id="main_section2">
+      <h2 class="main-section">Stock</h2>
+    </div>
+  </div>
+  </div>
+  <footer><span class="font-style">Copyright @oguuk</span></footer>
 </body>
-<script src="./header.js"></script>
 
 </html>
+
+<!-- <div id="inputWrapper">
+    <form class='search'>
+        <input class="keyword" type="text" name='search' size=25 maxlength=255 value="" autocomplete="off"
+            spellcheck="false" placeholder="검색">
+        <select class='selectSearch' name='whichSearch'>
+            <option id="google" vlaue="google">Google</option>
+            <option id="naver" value="naver">Naver</option>
+        </select>
+    </form>
+</div>
+<div id="stockWrapper">
+    <div class="rank">
+
+    </div>
+</div> -->

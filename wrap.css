@@ -1,0 +1,60 @@
+#chartWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#inputWrapper {
+  text-align: center;
+}
+
+.keyword {
+  border-style: groove;
+}
+.keyword {
+  border-radius: 5px;
+  width: 40%;
+  height: 1%;
+}
+
+.chart {
+  width: 30vmax;
+  height: 20vmax;
+  margin: 1px;
+  border-style: ridge;
+}
+.chart-button {
+  margin: 10px;
+}
+
+#chartWrapper {
+  margin-top: 20px;
+  margin-bottom: -25px;
+}
+
+.main-section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-section::first-letter {
+  font-size: 50px;
+}
+
+hr {
+  border-top: dotted;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}

@@ -1,6 +1,5 @@
 const Searching = Search.prototype;
 const Searched = document.querySelector(".search input");
-const menuBtn = document.querySelector(".siteLogo");
 
 function Search() {
   console.log("aa");
@@ -33,9 +32,5 @@ Searching.Engine = function () {
 };
 
 //Mark: addEvent
-menuBtn.addEventListener("click", btnClicked);
 
 new Search();
-
-13a2ceaa34497a130927866446b29447
-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
